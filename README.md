@@ -1,35 +1,24 @@
 TidyTuesday
 ================
-Andrew Li
-01/01/2021
 
-## R Markdown
+<img src="tidydata.png" width="60%" style="display: block; margin: auto;" />
 
-This is an R Markdown document. Markdown is a simple formatting syntax
-for authoring HTML, PDF, and MS Word documents. For more details on
-using R Markdown see <http://rmarkdown.rstudio.com>.
+### Motivation
 
-When you click the **Knit** button a document will be generated that
-includes both content as well as the output of any embedded R code
-chunks within the document. You can embed an R code chunk like this:
+This repo houses my submissions to the weekly
+[\#TidyTuesday](https://github.com/rfordatascience/tidytuesday) data
+project. Using R and modern tools such as
+[tidyverse](https://www.tidyverse.org), I hope to improve my data
+wrangling and visualization skills, As well, this a great outlet for me
+to experiment and go crazy as graphs for manuscripts are much more
+conservative. As well, I hope to document my improvements!
 
-``` r
-summary(cars)
-```
+### [Vancouver trees](https://github.com/andr3wli/tidytuesday/tree/main/trees)
 
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
+<img src="trees/trees_facet.png" width="65%" style="display: block; margin: auto;" />
 
-## Including Plots
+### Acknowledgement
 
-You can also embed plots, for example:
-
-![](README_files/figure-gfm/pressure-1.png)<!-- -->
-
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
+I will acknowledge specific people/repos that I use for inspiration but
+I will be greatly looking at my friend and collaborator [Georgios
+Karamanis](https://github.com/gkaramanis) for inspiration.

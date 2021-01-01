@@ -7,22 +7,18 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+```{r logo, fig.margin = TRUE, echo = FALSE, out.width = "60%", fig.align='center'}
+knitr::include_graphics(c("tidydata.png"))
 ```
 
-## Including Plots
+### Motivation
+This repo houses my submissions to the weekly [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) data project. Using R and modern tools such as [tidyverse](https://www.tidyverse.org), I hope to improve my data wrangling and visualization skills, As well, this a great outlet for me to experiment and go crazy as graphs for manuscripts are much more conservative. As well, I hope to document my improvements!
 
-You can also embed plots, for example:
+### [Vancouver trees](https://github.com/andr3wli/tidytuesday/tree/main/trees)
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r tree, fig.margin = TRUE, echo = FALSE, out.width = "65%", fig.align='center'}
+knitr::include_graphics(c("trees/trees_facet.png"))
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+### Acknowledgement
+I will acknowledge specific people/repos that I use for inspiration but I will be greatly looking at my friend and collaborator [Georgios Karamanis](https://github.com/gkaramanis) for inspiration. 
