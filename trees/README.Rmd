@@ -1,0 +1,29 @@
+---
+title: "Vancouver Trees"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Data 
+This data set comes from the R data package [datateachr](https://github.com/UBC-MDS/datateachr). Specifically, I used the `vancouver_trees` data set. This isn't from TidyTuesday. 
+
+## Plots 
+
+```{r trees1, fig.margin = TRUE, echo = FALSE, out.width = "100%", fig.align='center'}
+knitr::include_graphics(c("trees1.png"))
+```
+
+## Facet wrap
+
+```{r trees_facet, fig.margin = TRUE, echo = FALSE, out.width = "100%", fig.align='center'}
+knitr::include_graphics(c("trees_facet.png"))
+```
+
+## Points
+
+```{r trees_points, fig.margin = TRUE, echo = FALSE, out.width = "100%", fig.align='center'}
+knitr::include_graphics(c("trees_point.png"))
+```
