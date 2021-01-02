@@ -1,5 +1,5 @@
 ---
-title: "TidyTuesday"
+title: "Andrew's TidyTuesday"
 output: github_document
 ---
 
@@ -7,18 +7,32 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r logo, fig.margin = TRUE, echo = FALSE, out.width = "60%", fig.align='center'}
+```{r logo, fig.cap = "Source: [R4DS](https://r4ds.had.co.nz/introduction.html)", fig.margin = TRUE, echo = FALSE, out.width = "60%", fig.align='center'}
 knitr::include_graphics(c("tidydata.png"))
 ```
 
 ### Motivation
-This repo houses my submissions to the weekly [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) data project. Using R and modern tools such as [tidyverse](https://www.tidyverse.org), I hope to improve my data wrangling and visualization skills, As well, this a great outlet for me to experiment and go crazy as graphs for manuscripts are much more conservative. As well, I hope to document my improvements!
+This repo houses my submissions to the weekly [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) data project. Using R and modern tools such as `{ggplot2}`, `{dplyr}`, `{tidyr}`, and other tools in the  [`tidyverse`](https://www.tidyverse.org) package, I hope to improve my data wrangling and visualization skills. As well, this a great outlet for me to experiment and go crazy as graphs for manuscripts are much more conservative. Furthermore, I hope to document my improvements!
 
 ### [Vancouver trees](https://github.com/andr3wli/tidytuesday/tree/main/trees)
 
-```{r tree, fig.margin = TRUE, echo = FALSE, out.width = "65%", fig.align='center'}
+```{r tree, fig.margin = TRUE, echo = FALSE, out.width = "100%", fig.align='center'}
 knitr::include_graphics(c("trees/trees_facet.png"))
 ```
 
+### [Beer Production](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-03-31/readme.md)
+
+```{r, fig.margin = TRUE, echo = FALSE, out.width = "100%", fig.align='center'}
+knitr::include_graphics("beer_production/beer_maps.png")
+knitr::include_graphics("beer_production/craft_beer.png")
+```
+
+### [Global Plastic Waste](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-05-21)
+
+```{r, fig.margin = TRUE, echo = FALSE, out.width = "100%", fig.align='center'}
+knitr::include_graphics("plastic_waste/bar_combined.png")
+knitr::include_graphics("plastic_waste/img_combined.png")
+```
+
 ### Acknowledgement
-I will acknowledge specific people/repos that I use for inspiration but I will be greatly looking at my friend and collaborator [Georgios Karamanis](https://github.com/gkaramanis) for inspiration. 
+I will acknowledge specific people/repos that I used for inspiration but I will be greatly looking at my friend and collaborator [Georgios Karamanis](https://github.com/gkaramanis) for inspiration. This project was founded in 2018 by [Thomas Mock](https://thomasmock.netlify.app) and organized by [R4DS ("R 4 Data Science") online learning community](https://twitter.com/r4dscommunity).

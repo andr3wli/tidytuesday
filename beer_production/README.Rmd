@@ -1,0 +1,28 @@
+---
+title: "Beer Production"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+[Andrew Li](https://github.com/andr3wli)
+
+### Data 
+This week's [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) challenge looks at beer production. You can find the repo [here](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-03-31/readme.md). I used the `beer_state.csv` data set.
+
+```{r, eval=FALSE}
+beer_states <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-31/beer_states.csv')
+```
+
+### Plots 
+
+```{r, fig.margin = TRUE, echo = FALSE, out.width = "100%", fig.align='center'}
+knitr::include_graphics("beer_maps.png")
+```
+
+### Plots 
+
+```{r, fig.margin = TRUE, echo = FALSE, out.width = "100%", fig.align='center'}
+knitr::include_graphics("craft_beer.png")
+```
