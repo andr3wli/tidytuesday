@@ -27,13 +27,9 @@ head(vancouver_trees)
 knitr::include_graphics(c("trees1.png"))
 ```
 
-### Facet wrap
-
 ```{r trees_facet, fig.margin = TRUE, echo = FALSE, out.width = "100%", fig.align='center'}
 knitr::include_graphics(c("trees_facet.png"))
 ```
-
-### Points
 
 ```{r trees_points, fig.margin = TRUE, echo = FALSE, out.width = "100%", fig.align='center'}
 knitr::include_graphics(c("trees_point.png"))

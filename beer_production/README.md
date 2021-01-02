@@ -19,6 +19,4 @@ beer_states <- readr::read_csv('https://raw.githubusercontent.com/rfordatascienc
 
 <img src="beer_maps.png" width="100%" style="display: block; margin: auto;" />
 
-### Plots
-
 <img src="craft_beer.png" width="100%" style="display: block; margin: auto;" />

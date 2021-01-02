@@ -15,13 +15,10 @@ This week's [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) chall
 beer_states <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-31/beer_states.csv')
 ```
 
-### Plots 
-
+### Plots
 ```{r, fig.margin = TRUE, echo = FALSE, out.width = "100%", fig.align='center'}
 knitr::include_graphics("beer_maps.png")
 ```
-
-### Plots 
 
 ```{r, fig.margin = TRUE, echo = FALSE, out.width = "100%", fig.align='center'}
 knitr::include_graphics("craft_beer.png")

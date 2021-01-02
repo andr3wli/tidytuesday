@@ -21,8 +21,6 @@ waste_vs_gdp <- readr::read_csv("https://raw.githubusercontent.com/rfordatascien
 
 <img src="bar_combined.png" width="100%" style="display: block; margin: auto;" />
 
-### Plots
-
 <img src="img_combined.png" width="100%" style="display: block; margin: auto;" />
 
 ### Acknowledgement
