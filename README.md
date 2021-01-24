@@ -21,10 +21,6 @@ data wrangling and visualization skills. As well, this a great outlet
 for me to experiment and go crazy as graphs for manuscripts are much
 more conservative. Furthermore, I hope to document my improvements!
 
-### [Vancouver trees](https://github.com/andr3wli/tidytuesday/tree/main/trees)
-
-<img src="trees/trees_facet.png" width="100%" style="display: block; margin: auto;" />
-
 ### [Beer Production](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-03-31/readme.md)
 
 <img src="beer_production/beer_maps.png" width="100%" style="display: block; margin: auto;" /><img src="beer_production/craft_beer.png" width="100%" style="display: block; margin: auto;" />
@@ -32,6 +28,14 @@ more conservative. Furthermore, I hope to document my improvements!
 ### [Global Plastic Waste](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-05-21)
 
 <img src="plastic_waste/bar_combined.png" width="100%" style="display: block; margin: auto;" /><img src="plastic_waste/img_combined.png" width="100%" style="display: block; margin: auto;" />
+
+### [Traumatic Brain Injury](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-03-24/readme.md)
+
+<img src="tbi/fig/tbi_combined.png" width="100%" style="display: block; margin: auto;" />
+
+### [Vancouver trees](https://github.com/andr3wli/tidytuesday/tree/main/trees)
+
+<img src="trees/trees_facet.png" width="100%" style="display: block; margin: auto;" />
 
 ### Acknowledgement
 

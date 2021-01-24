@@ -14,11 +14,6 @@ knitr::include_graphics(c("tidydata.png"))
 ### Motivation
 This repo houses my submissions to the weekly [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) data project. Using R and modern tools such as `{ggplot2}`, `{dplyr}`, `{tidyr}`, and other tools in the  [`tidyverse`](https://www.tidyverse.org) package, I hope to improve my data wrangling and visualization skills. As well, this a great outlet for me to experiment and go crazy as graphs for manuscripts are much more conservative. Furthermore, I hope to document my improvements!
 
-### [Vancouver trees](https://github.com/andr3wli/tidytuesday/tree/main/trees)
-
-```{r tree, fig.margin = TRUE, echo = FALSE, out.width = "100%", fig.align='center'}
-knitr::include_graphics(c("trees/trees_facet.png"))
-```
 
 ### [Beer Production](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-03-31/readme.md)
 
@@ -32,6 +27,16 @@ knitr::include_graphics("beer_production/craft_beer.png")
 ```{r, fig.margin = TRUE, echo = FALSE, out.width = "100%", fig.align='center'}
 knitr::include_graphics("plastic_waste/bar_combined.png")
 knitr::include_graphics("plastic_waste/img_combined.png")
+```
+
+### [Traumatic Brain Injury](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-03-24/readme.md)
+```{r, fig.margin = TRUE, echo = FALSE, out.width = "100%", fig.align='center'}
+knitr::include_graphics("tbi/fig/tbi_combined.png")
+```
+
+### [Vancouver trees](https://github.com/andr3wli/tidytuesday/tree/main/trees)
+```{r tree, fig.margin = TRUE, echo = FALSE, out.width = "100%", fig.align='center'}
+knitr::include_graphics(c("trees/trees_facet.png"))
 ```
 
 ### Acknowledgement
